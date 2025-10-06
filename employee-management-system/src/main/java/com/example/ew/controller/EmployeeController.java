@@ -19,7 +19,7 @@ import com.example.ew.entity.Employee;
 import com.example.ew.serviceimpl.EmployeeServiceImpl;
 
 @RestController
-@RequestMapping("/emmp")
+@RequestMapping("/emmpp")
 public class EmployeeController {
 	
 	@Autowired
