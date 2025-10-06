@@ -30,7 +30,7 @@ public class EmployeeController {
 		this.employeeserviceimpl = employeeserviceimpl;
 	}
 
-	@PostMapping("/post")
+	@PostMapping("/postsss")
 	public ResponseEntity<Employee>saveemployee( @RequestBody Employee employee)
 	{
 		return new ResponseEntity<Employee>(employeeserviceimpl.saveemployee(employee),HttpStatus.OK);
